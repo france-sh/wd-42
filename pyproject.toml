@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wd-42"
+version = "0.1.0"
+description = "A friction less open data platform"
+authors = ["Alexandre Bulté <alexandre@bulte.net>"]
+license = "AGPL"
+readme = "README.md"
+packages = [{include = "wd_42"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
